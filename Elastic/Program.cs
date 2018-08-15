@@ -30,6 +30,7 @@ namespace Elastic
                     p.QueryString(t => t.Fields(x => x.Field("SaleOrderDetails.FullName")).Query("银行"))))));
 
             Console.ReadKey();
+
         }
     }
 }
